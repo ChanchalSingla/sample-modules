@@ -194,7 +194,7 @@ public class MultiSiteStore implements Store {
     }
 
     // =========================================================
-    // Base Directory Resolver
+    // Base Directory Resolver, Main custom logic for creating the sitewise directory basis on grouId
     // =========================================================
 
     private File _resolveBaseDir(
