@@ -194,12 +194,12 @@ public class MultiSiteStore implements Store {
     }
 
     // =========================================================
-    // Base Directory Resolver, Main custom logic for creating the sitewise directory basis on grouId
+    //Base Directory Resolver, Main custom logic for creating the sitewise directory basis on grouId.Custom method: _resolveBaseDir
     // =========================================================
 
     private File _resolveBaseDir(
             long companyId, long repositoryId, String fileName) {
-
+      
         long groupId = _resolveGroupId(
                 companyId, repositoryId, fileName);
 
